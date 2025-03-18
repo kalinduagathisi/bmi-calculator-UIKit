@@ -210,7 +210,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="adviceLable" destination="r83-N3-Ash" id="sv4-io-eUl"/>
+                        <outlet property="adviceLable" destination="9IV-CT-mxw" id="rce-gz-6ZR"/>
                         <outlet property="bmiLable" destination="VU9-2W-Sd5" id="icf-VS-nyt"/>
                     </connections>
                 </viewController>

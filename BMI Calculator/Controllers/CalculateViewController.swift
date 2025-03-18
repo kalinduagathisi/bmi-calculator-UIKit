@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CalculateViewController: UIViewController {
 
     @IBOutlet weak var weightLable: UILabel!
     @IBOutlet weak var heightLable: UILabel!
@@ -40,6 +40,8 @@ class ViewController: UIViewController {
         
         let bmi = weight / pow(height, 2)
         print(bmi)
+        
+        self.performSegue(withIdentifier: "goToResult", sender: self)
     }
 }
 
